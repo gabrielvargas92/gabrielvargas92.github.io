@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script>
+		function pushTag()
+		{
+			var VLM = "anyclickId";
+			(window._rgba_tags = (window._rgba_tags || [])).push({ type:"user", clickid: VLM})
+		}
+		pushTag();
+	</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fetch Script</title>
@@ -11,14 +20,7 @@
  16149530501
 </li>
 
-<script>
-	function pushTag()
-	{
-		var VLM = "anyclickId";
-		(window._rgba_tags = (window._rgba_tags || [])).push({ type:"user", clickid: VLM})
-	}
-	pushTag();
-</script>
+
 
 <!-- <script> (function(e,d) {
 	//Ringba.com phone number tracking
